@@ -1,0 +1,541 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name ='viewport' content="width=device-width initial-scale=1.0,shrink-to-fit=no">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <title>Best Online Food Delivery Service In India | Myonlinemeal.com</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Baloo+Bhai+2&family=Baloo+Bhaina+2&family=Bree+Serif&display=swap" rel="stylesheet">
+    
+    <style>
+        *{
+    margin: 0;
+    padding: 0;
+   
+}
+body{
+    background-color: antiquewhite;
+
+}
+:root{
+    --navbar-height: 59px;
+}
+#navbar{
+    display: flex;
+    align-items: center;
+    position: relative;
+    top: 0px;
+
+
+}
+#logo{
+    margin: 10px 33px;
+
+}
+#logo img{
+
+    margin: 3px 6px;
+    height: 56px;
+}
+
+#navbar ul{
+    display: flex;
+    font-family: 'Baloo Bhaina 2', cursive;
+}
+#navbar ul li{
+    list-style: none;
+    font-size: 1.3rem;
+}
+#navbar ul li a{
+   display: block;
+   padding: 3px 22px;
+   text-decoration: none;
+   border-radius: 20px;
+   color: white;
+}
+#navbar ul li a:hover{
+    color: black;
+    background-color: white;
+}
+#navbar::before{
+    content: '';
+    background-color: black;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+    opacity: 0.4;
+    top: 0px;
+    left: 0px;
+
+}
+
+#home{
+    display: flex;
+    flex-direction: column;
+    padding: 3px 200px;
+    justify-content: center;
+    align-items: center;
+    height: 378px;
+
+}
+#home::before{
+    content: '';
+    background:url(../th\ \(2\).jpg) no-repeat center/cover;
+    position: absolute;
+    height: 50%;
+    width: 100%;
+    z-index: -1;
+    opacity: 0.89;
+    top: 0px;
+    left: 0px;
+
+    
+
+}
+.primery{
+    font-size: 3.8rem;
+    padding: 12px;
+    
+}
+#home h1{
+    color: white;
+    text-align: center;
+    font-family: 'Bree Serif', serif;
+    font-size: 2.8rem;
+    
+}
+#home p{
+    font-family: 'Bree Serif', serif;
+    color: white;
+    text-align: center;
+    font-size: 0.99rem;
+
+}
+.btn{
+    padding: 6px 20px;
+    border: 2px solid whitesmoke;
+    background-color: brown;
+    margin: 17px;
+    color: whitesmoke;
+    font-size: 1.5rem;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+#services{
+    margin: 34px;
+    display: flex;
+    
+
+    
+   
+}
+#services .box{
+    border: 2px solid brown;
+    box-sizing: border-box;
+    padding: 23px 56px 6px 75px;
+    margin: 34px 14px;
+    border-radius: 23px;
+    cursor: pointer;
+    background-color: antiquewhite;
+    
+}
+#services .box img{
+    height: 160px;
+    display: block;
+    margin: auto;
+    
+    
+    
+}
+.center{
+    text-align: center;
+}
+.secondary{
+    font-size: 2.8rem;
+    padding: 12px;
+
+}
+/* clients section */
+#clients{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#clients-section{
+    height: 60px;
+    
+    
+}
+#clients img{
+    height: 124px;
+    cursor: pointer;
+}
+#clients-item{
+    padding: 50px;
+    
+}
+#clients-section::before{
+    content: '';
+    background:url(../th\ \(3\).jpg) no-repeat center/cover;
+    position: absolute;
+    height: 40%;
+    width: 100%;
+    z-index: -1;
+    opacity: 0.4;
+}
+#contact{
+   
+    padding-top: 243px;
+    
+
+}
+#contact::before{
+    content: '';
+    background:url(../th\ \(1\).jpg) no-repeat center/cover;
+    position: absolute;
+    height: 80%;
+    width: 100%;
+    z-index: -1;
+    opacity: 0.4;
+
+}
+footer{
+    background: black;
+    color: aliceblue;
+    padding: 9px 20px;
+
+}
+#contact-box input,
+#contact-box textarea{
+    width: 100%;
+    padding: 0.5rem;
+    border-radius: 9px;
+    font-size: 1.1rem;
+}
+#contact-box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 34px;
+}
+#contact-box form{
+    width: 40%;
+
+}
+#contact-box label{
+    font-size: 1.5rem;
+    font-family:  'Lucida Grande', 'Lucida Sans Unicode', 
+}
+#dishes{
+    margin: 100px;
+    display: flex;
+    
+    
+
+}
+#dishes .box{
+    
+    box-sizing: border-box;
+    padding: 15px;
+    margin: 30px;
+    
+    cursor: pointer;
+    margin-left: 140px; 
+    height: 15%;
+    width: 15%; 
+
+}
+#dishes .box img{
+    height: 150px;
+    display: block;
+    margin: auto;
+    
+
+}
+#cream{
+    margin: 100px;
+    display: flex;
+}
+#cream .box{
+    
+    box-sizing:;
+    padding: 8px;
+    margin: 30px;
+   
+    cursor: pointer;
+    margin-left: 140px;  
+    margin-top: 0px;
+    height: 15%;
+    width: 15%;
+  
+}
+#cream .box  img{
+    height: 150px;
+    display: block;
+    margin: auto;
+}
+@media screen and (max-width:1102px){
+    #navbar{
+        flex-direction: column;
+        padding-left: 50px;
+
+    }
+    #home{
+        height: 350px;
+        flex-direction: column;
+        padding: 3px 68px;;
+
+    }
+    #home::before{
+        height: 370px;
+        width: 600%;
+    }
+    #home p{
+        font-size: 5px;
+    }
+    .h-primary{
+        font-size: 16px;
+    }
+    #services{
+        flex-direction: column;
+        width: 65%;
+        padding-left: 40px;
+        overflow: auto;
+    }
+    #dishes{
+        flex-direction: column;
+        padding: 0px;
+        margin: 50px;
+        width: 20%;
+        
+    }
+    
+    
+    #cream{
+        flex-direction: column;
+        padding: 0px;
+        margin: 50px;
+        width: 20%;
+    }
+    #clients{
+        margin: 15px;
+    }
+    #services .box img{
+        height: 70px;
+        padding-right: 30px;
+        
+        margin: 20px;
+    }
+    #logo img{
+        flex-direction: column;
+    }
+    .btn{
+       
+    }
+    #home::before{
+    
+    
+    
+        height: 420px;
+        
+    
+    }
+    #home h1{
+        font-size: 2rem;
+
+    }
+    #home p{
+        padding-bottom: 20px;
+    }
+    #navbar ul li{
+        font-size: 14px;
+        padding-left: 0%;
+    }
+
+    #services  .box{
+    
+   
+    padding: 20px 40px 7px 42px;
+    margin: 10px 2px;
+    
+    
+}
+#dishes .box{
+   padding: 20%;
+   margin: 0%;
+   padding-left: 20%;
+   
+}
+#cream .box{
+    
+    padding: 20%;
+    margin: 10%;
+    padding-left: 20%;
+    
+}
+#cream .box  img{
+    padding: 0%;
+    margin: 0%;
+
+}
+#clients img{
+    height: 60px;
+    
+}
+#clients-section::before url{
+    height: 56px;
+}
+#clients-item{
+    padding: 0%;
+    margin: 10px;
+}
+body{
+    display: block;
+}
+
+}
+ 
+
+    
+
+
+
+
+    </style>
+</head>
+<body>
+    <nav id="navbar">
+        <div id="logo">
+            <img src="./th (4).jpg" alt="Myonlinemeal.com">
+
+        </div>
+        <ul>
+            <li class="item"><a href="#">Home</a></li>
+            <li class="item"><a href="#service">Services</a></li>
+            <li class="item"><a href="#clients-section">About us</a></li>
+            <li class="item"><a href="#contact">Contact us</a></li>
+            
+
+        </ul>
+    </nav>
+    <section id="home">
+        <h1 id="primery">Welcom to myonlinemeal</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor autem cupiditate facilis. Beatae quas te</p>
+        <button class="btn"><a href="https://www.zomato.com/" alt=""> Order now</a></button>
+    </section>
+
+
+    <section class="services-contanier" id="service">
+        <h1 class=" secondary center">Our Services</h1>
+        <div id="services">
+            <div class="box">
+                <img src="./img/th (5).jpg" alt="">
+                <h2 class="secondary center">Food Creating</h2>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dignissimos distinctio iure velit qui qu</p>
+            </div>
+            <div class="box">
+                <img src="./th (10).jpg" alt="">
+                <h2 class="secondary center">Bulk Ordering</h2>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dignissimos distinctio iure velit qui qu</p>
+            </div>
+            <div class="box">
+                <img src="./img/th.jpg" alt="">
+                <h2 class="secondary center">Food Ordering</h2>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dignissimos distinctio iure velit qui qu</p>
+            </div>
+        </div>
+        
+    </section>
+    <section class="Dishes-container">
+        <h1 class="secondary center">Dishes</h1>
+        <div id="dishes">
+            <div class="box">
+                <img src="./th (11).jpg" alt="">
+                <h3 class="secondary center" center>Breakfast</h3>
+
+            </div>
+            <div class="box">
+                <img src="./th (12).jpg" alt="">
+                <h3 class="secondary center" center>Lunch</h3>
+
+            </div>
+            <div class="box">
+                <img src="./th (18).jpg">
+                <h3 class="secondary center" center>Dinner</h3>
+
+            </div>
+        </div>
+    </section>
+    <section class="Dishes-container">
+        <div id="cream">
+            <div class="box">
+                <img src="./th (14).jpg" alt="">
+                <h3 class="secondary center" center>Ice-Creams</h3>
+
+            </div>
+            <div class="box">
+                <img src="./th (15).jpg" alt="">
+                <h3 class="secondary center" center>Soups</h3>
+
+            </div>
+            <div class="box">
+                <img src="./th (16).jpg" alt="">
+                <h3 class="secondary center">Drinks</h3>
+
+            </div>
+        </div>
+            
+
+    </section>
+    <section id="clients-section">
+        <h1 class="primery center">Our Client</h1>
+        <div id="clients">
+            <div id="clients-item">
+                <img src="./img/th (8).jpg" alt="Our Clients">
+            </div>
+            <div id="clients-item">
+                <img src="./img/th (6).jpg" alt="Our Clients">
+            </div>
+            <div id="clients-item">
+                <img src="./img/th (7).jpg" alt="Our Clients">
+            </div>
+        </div>
+
+    </section>
+    <section id="contact">
+        <h1 class="primery center">Contact Us</h1>
+        <div id="contact-box">
+            <form action="">
+                <div class="form-group">
+                    <label for="name">Name: </label>
+                    <input type="text" name="name" id="name"
+                    placeholder="Enter your name"> 
+                </div>
+                <div class="form-group">
+                    <label for="email">email: </label>
+                    <input type="email" name="name" id="email"
+                    placeholder="Enter your Email"> 
+                </div>
+                <div class="form-group">
+                    <label for="phone">phone: </label>
+                    <input type="phone" name="name" id="phone"
+                    placeholder="Enter your Phone no"> 
+                </div>
+                <div class="form-group">
+                    <label for="message">message: </label>
+                    <textarea name="message" id="message" cols="30" rows="10"></textarea>
+                </div>
+            </form>
+        </div>
+    </section>
+    <footer class="center">
+        copyright &copy; www.myonlinemeal.com  All right reserved!
+    </footer>
+</body>
+</html>
